@@ -18,18 +18,23 @@ class Stack:
     def push(self):
         self.items.append(str(input('Please enter the next entry for the stack: ')))
 
-    def pop(self):
-        self.items.pop(0)
+    def pop(self,remove_item):
+        self.items.pop(remove_item)
 
     def peek(self):
         print(self.items[0])
 
     def size(self):
         pass
-
+    
+def main():
+    max_stacks = int(input('please enter the max stacks: '))
+    while each != -1:
+        each = str(input('Please enter the next entery of the stack enter -1 to end: '))
+        items_list.append(each)
+    
 
 
 if __name__ == '__main__':
-    items_list=['Hello world','My name is Peter']
-    test_stack = Stack(6,items_list)
+    main()
     
